@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Interface">
+        <ListPreference
+            app:entries="@array/themes_entries"
+            app:entryValues="@array/themes_values"
+            app:key="@string/theme_preferences_key"
+            app:defaultValue="@string/system_theme_preference_value"
+            app:title="Theme" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="Behaviour">
+
+        <ListPreference
+            android:key="sort_by"
+            android:title="Sort by"
+            android:entries="@array/sort_entries"
+            app:useSimpleSummaryProvider="true"
+            android:entryValues="@array/sort_values"/>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

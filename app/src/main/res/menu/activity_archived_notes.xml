@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_button"
+        android:title="@string/sort_by"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="ifRoom|withText" >
+        <menu>
+            <item android:id="@+id/sort_title"
+                android:title="@string/sort_by_title" />
+            <item android:id="@+id/sort_added"
+                android:title="@string/sort_by_added" />
+            <item android:id="@+id/sort_modified"
+                android:title="@string/sort_by_last_modified" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/btn_settings"
+        android:title="@string/show_settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom|withText" />
+</menu>

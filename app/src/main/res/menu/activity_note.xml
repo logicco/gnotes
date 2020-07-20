@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/archive_button"
+        android:visible="false"
+        android:title="@string/archive"
+        android:icon="@drawable/ic_archive"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/unarchive_button"
+        android:visible="false"
+        android:title="@string/archive"
+        android:icon="@drawable/ic_unarchive"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/btn_more"
+        android:title="@string/more"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="ifRoom|withText" >
+        <menu>
+            <item android:id="@+id/edit_title"
+                android:title="@string/edit_title" />
+            <item android:id="@+id/delete_note"
+                android:title="@string/delete_note" />
+        </menu>
+    </item>
+
+
+</menu>

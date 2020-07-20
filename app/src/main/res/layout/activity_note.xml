@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.NoteActivity" >
+
+    <EditText
+        android:id="@+id/content_field"
+        style="style/bor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:gravity="top"
+        android:background="@android:color/transparent"
+        android:hint="@string/et_hint_enter_your_note_here" />
+
+</LinearLayout>
