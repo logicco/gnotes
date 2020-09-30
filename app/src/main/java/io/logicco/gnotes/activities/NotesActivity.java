@@ -8,10 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
@@ -25,8 +23,6 @@ public class NotesActivity extends BaseNotesActivity
         implements NoteDialogFragment.NoteDialogListener {
 
     private static final String TAG_NOTE_CREATE_DIALOG = "create_note_dialog";
-
-
 
     public static Intent newIntent(Context context) {
         return new Intent(context, NotesActivity.class);
