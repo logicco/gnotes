@@ -1,4 +1,4 @@
-### Check out the app on [Playstore](httphttps://play.google.com/store/apps/details?id=io.logicco.gnotes&hl=en_US&gl=US:// "Playstore")
+### Check out the app on [Playstore](https://play.google.com/store/apps/details?id=io.logicco.gnotes&hl=en_US&gl=US:// "Playstore")
 
 # G Notes
 
